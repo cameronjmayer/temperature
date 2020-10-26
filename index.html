@@ -6,13 +6,17 @@
 <body>
 
 <p>
+    <!-- Title of inpute-->
     <label>Fahrenheit</label>
+    <!--Apply temperatureConverter effect to input value, declare its value a number-->
     <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
     oninput="temperatureConverter(this.value)"
     onchange="temperatureConverter(this.value)">
 </p>
 
+<!--Title of output-->
 <p>Celcius: 
+    <!--Generate outputCelcius value-->
     <span id="outputCelcius"></span></span>
 </p>
 
